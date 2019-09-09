@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css?family=Russo+One|Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Russo+One&display=swap');
+body{
+	margin: 0;
+	cursor: pointer;
+	scroll-behavior: smooth;
+}
+.topbar{
+	display: flex;
+	flex-direction: column;
+	}
+
+.man{
+      display: flex;
+      justify-content: space-around;  
+	}
+.header-contact{
+	display: flex;
+	justify-content: space-around;
+	background-color: #9966ff;
+	height: 70px;
+	align-items: center;
+}
+.menu-content{
+	display: flex;
+	justify-content: space-between;
+	background-color:   #99ccff;
+	align-items: center;
+}
+.logo{
+	align-items: center;
+	font-size: 20px;
+	font-weight: bold;
+	font-family:"Russo One" sans-serif;
+	text-transform: capitalize;
+	text-decoration: unset;
+}
+@media (max-width: 576px) {
+  .hide {
+    display: none;  }
+}
+.menu a{
+	margin-left: 70px;
+	padding: 15px;
+	color:  black;
+	font-size: 20px;
+	font-weight: bold;
+	font-family:"Ubuntu" sans-serif;
+}
+#banner{
+	background-color: indigo;
+	height:600px;
+	display: flex;
+	justify-content: space-between;
+	text-align: center;
+}
+.sbana{
+	background-color: skyblue;
+	height: 300px;
+
+}
+.vbana{
+	background-color: violet;
+	height: 350px;
+	/*display: flex;
+	justify-content: space-around;
+	/*align-items: center;*/*/
+}
+.in{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	
+}
+.b1{
+	background-image: url;
+	/*height: 170px;*/
+}
+.bar{
+	display: flex;
+	flex-direction:row;
+}
+.fbana{
+	background:url(web/ae.jpeg);
+	height: 600px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+#bana{
+	background:url(web/it.jpeg);
+	height: 600px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.gbana{
+	background:url(web/a.jpg);
+	height: 600px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.mbanner{
+	background:url(web/mg.jpeg);
+	height: 600px;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.sbanner{
+	background:linear-gradient(rgba(6,133,166,0.5),rgba(6,133,150,0.6),rgba(6,190,255,0.7)), url(img7.jpg);
+	height: 400px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-position: left;
+}
+.nbana{
+background:linear-gradient(rgba(6,133,166,0.5),rgba(6,133,150,0.6),rgba(6,190,255,0.7)), url(web/py.jpeg);
+	height: 400px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-position: left;
+}
+.tbanner{
+	background:linear-gradient(rgba(6,133,166,0.5),rgba(6,133,150,0.6),rgba(6,190,255,0.7)), url(web/t.jpg);
+	height: 400px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	background-position: left;
+}
+.confirm{
+	background:linear-gradient(rgba(6,133,166,0.5),rgba(6,133,150,0.6),rgba(6,190,255,0.7)), url(web/wh.jpeg);
+	height: 450px;
+	align-items: center;
+	display: flex;
+	justify-content: center;
+}
+.intro{
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	align-items: center;
+}
+#demo  p {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 0px;
+}
+.demo  p {
+  text-align: center;
+  font-size: 60px;
+  margin-top: 0px;
+}
+.sky{
+	background-color: skyblue;
+	display: flex; 
+	justify-content: space-around;
+}
+.rad{
+	border-radius: 50%;
+	height: 130px;
+	width: 130px;
+	line-height: 1.3; 
+	position: relative; 
+	padding: 25px;
+	background-color: tomato;
+	align-items: center;
+	justify-content: center;
+	margin-right: 5%;
+	margin-left: 5%;
+}
+.radi{
+	border-radius: 50%;
+	height: 200px;
+	width: 200px;
+	line-height: 1.3; 
+	position: relative; 
+	padding: 60px;
+	background-color: aqua;
+	align-items: center;
+	justify-content: center;
+}
+.hub{
+	font-size: 30px; 
+	font-family: sans-serif; 
+	font-weight: bold; 
+	align-items: center; 
+	padding: 7px; 
+	background-color: skyblue; 
+	border-radius: 20px;
+	height: 70px;
+}
+.grow{transition: all .2s ease-in-out;}
+.grow:hover{transform: scale(1.1);}
