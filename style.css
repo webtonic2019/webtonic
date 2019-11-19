@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Russo+One|Ubuntu&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Russo+One&display=swap');
 body{
-	margin: 0;
+	margin: 0px;
 	cursor: pointer;
 	scroll-behavior: smooth;
 }
@@ -17,8 +17,8 @@ body{
 .header-contact{
 	display: flex;
 	justify-content: space-around;
-	background-color: #9966ff;
-	height: 70px;
+	background-color: white;
+	height: 50px;
 	align-items: center;
 }
 .menu-content{
@@ -60,7 +60,7 @@ body{
 
 }
 .vbana{
-	background-color: violet;
+	/*background-color: skyblue;*/
 	height: 350px;
 	/*display: flex;
 	justify-content: space-around;
@@ -80,14 +80,15 @@ body{
 	display: flex;
 	flex-direction:row;
 }
+
 .fbana{
-	background:url(web/ae.jpeg);
+	background:url(f.jpg);
 	height: 600px;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 #bana{
-	background:url(web/it.jpeg);
+	background:url(nt.jpg);
 	height: 600px;
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -99,30 +100,30 @@ body{
 	background-size: cover;
 }
 .mbanner{
-	background:url(web/mg.jpeg);
+	background:url(manage.jpg);
 	height: 600px;
 	background-repeat: no-repeat;
 	background-size: cover;
 }
 .sbanner{
 	background:linear-gradient(rgba(6,133,166,0.5),rgba(6,133,150,0.6),rgba(6,190,255,0.7)), url(img7.jpg);
-	height: 400px;
+	height: 500px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	background-position: left;
 }
 .nbana{
-background:linear-gradient(rgba(6,133,166,0.5),rgba(6,133,150,0.6),rgba(6,190,255,0.7)), url(web/py.jpeg);
+background:linear-gradient(rgba(6,133,166,0.5),rgba(6,133,150,0.6),rgba(6,190,255,0.7)), url(img7.jpg);
 	height: 400px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	background-position: left;
+	background-repeat: no-repeat;
 }
 .tbanner{
 	background:linear-gradient(rgba(6,133,166,0.5),rgba(6,133,150,0.6),rgba(6,190,255,0.7)), url(web/t.jpg);
-	height: 400px;
+	height: 450px;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
@@ -130,7 +131,7 @@ background:linear-gradient(rgba(6,133,166,0.5),rgba(6,133,150,0.6),rgba(6,190,25
 }
 .confirm{
 	background:linear-gradient(rgba(6,133,166,0.5),rgba(6,133,150,0.6),rgba(6,190,255,0.7)), url(web/wh.jpeg);
-	height: 450px;
+	height: 600px;
 	align-items: center;
 	display: flex;
 	justify-content: center;
@@ -163,7 +164,7 @@ background:linear-gradient(rgba(6,133,166,0.5),rgba(6,133,150,0.6),rgba(6,190,25
 	line-height: 1.3; 
 	position: relative; 
 	padding: 25px;
-	background-color: tomato;
+	background-color: gray;
 	align-items: center;
 	justify-content: center;
 	margin-right: 5%;
@@ -192,3 +193,26 @@ background:linear-gradient(rgba(6,133,166,0.5),rgba(6,133,150,0.6),rgba(6,190,25
 }
 .grow{transition: all .2s ease-in-out;}
 .grow:hover{transform: scale(1.1);}
+
+.cbanner{
+ background:linear-gradient(rgba(6,133,166,0.5),rgba(6,133,150,0.6),rgba(6,190,255,0.7)), url( contact.jpg);
+	height: 600px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex: column;
+	background-position: top;
+	background-repeat: no-repeat;
+ 
+}
+.cbana{
+	 background:linear-gradient(rgba(6,133,166,0.5),rgba(6,133,150,0.6),rgba(6,190,255,0.7)), url( p1.jpg);
+	 height: 400px;
+	 display: flex;
+	 justify-content: space-between;
+	 align-items: center;
+}
+.bub{
+	margin-left: 20%;
+	margin-right: 20%;
+}
